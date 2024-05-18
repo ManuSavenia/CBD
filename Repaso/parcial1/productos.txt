@@ -1,0 +1,40 @@
+001
+Pintura acrílica
+Color blanco 1 litro
+20
+002
+Martillo de carpintero
+Martillo de 16 onzas
+35
+003
+Taladro inalámbrico
+Taladro con batería de 18V
+15
+004
+Destornillador Phillips
+Con punta cruz
+50
+005
+Clavos 2 pulgadas
+Caja de clavos de 2 pulgadas
+100
+006
+Lija de agua
+Hoja de lija
+75
+007
+Sierra manual
+Sierra para madera
+40
+008
+Cinta métrica
+Cinta de 5 metros
+60
+009
+Alicates
+Alicates multiusos
+25
+010
+Llave inglesa
+Llave ajustable
+30

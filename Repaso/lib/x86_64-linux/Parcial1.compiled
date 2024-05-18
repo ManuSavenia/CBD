@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1714586784"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fu/home/manuel/Documents/Facultad/CBD/Repaso/ -FU/home/manuel/Documents/Facultad/CBD/Repaso/lib/x86_64-linux/ -FE/home/manuel/Documents/Facultad/CBD/Repaso/ -o/home/manuel/Documents/Facultad/CBD/Repaso/Parcial1 Parcial1.pas"/>
+  <Complete Value="False"/>
+</CONFIG>
