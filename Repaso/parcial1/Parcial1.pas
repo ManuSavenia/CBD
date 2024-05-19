@@ -51,19 +51,17 @@ Type
         aux,cabecera:producto;
     begin
         reset(traducido);
-        read(traducido,cabecera);
+        read(traducido,cabecera); {leo la cabecera}
         aux.cod_producto:=-1;
-        while(not((aux.cod_producto = cod_e) or (eof(traducido))))do 
+        while(not((aux.cod_producto = cod_e) or (eof(traducido))))do {busco el producto hasta encontrarlo o llegar al final del archivo} 
             read(traducido,aux);
-        if(aux.cod_producto=cod_e) then
+        if(aux.cod_producto=cod_e) then {si encontre el producto}
         begin
-            nlibre:=Filepos(traducido) -1;
-            seek(traducido,nlibre);
-            write(traducido,cabecera);
-            seek(traducido,0);
+            nlibre:=Filepos(traducido) -1;{me guardo la posicion borrada}
+            seek(traducido,nlibre);write(traducido,cabecera);{escribo la cabecera en la posicion eliminada}
             aux.cod_producto:=nlibre;
             aux.descripcion:='@';
-            write(traducido,aux);
+            seek(traducido,0);write(traducido,aux);{actualizo la cabecera}
         end
         else 
             write('no se encuentra el codigo a borrar');

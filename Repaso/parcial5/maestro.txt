@@ -1,0 +1,12 @@
+1
+Producto1
+Descripcion1
+100
+0
+0
+2
+Producto2
+Descripcion2
+200
+0
+0
